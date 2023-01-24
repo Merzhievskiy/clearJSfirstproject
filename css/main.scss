@@ -1,0 +1,29 @@
+
+$var1: #485461;
+
+.container {
+	min-height: 100vh;
+	width: 100%;
+	background-color: @var1;
+	background-image: linear-gradient(135deg, @var1 0%, #28313b 74%);
+	overflow: hidden;
+	transform-style: preserve-3d;
+}
+.main {
+	position: relative;
+	width: 100%;
+	left: 0;
+	z-index: 5;
+	overflow: hidden;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	transition: .5s;
+}
+.header {
+	min-height: 100vh;
+	width: 100%;
+	position: relative;
+	&__one {
+		background: url() no-repeat top center;
+	}
+}

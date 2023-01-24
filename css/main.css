@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap");
+
+@import url(/css/reset.css);
+
+
+
+.container{
+	min-height: 100vh;
+	width: 100%;
+	background-color: #485461;
+	background-image: linear-gradient(135deg, #485461 0%, #28313b 74%);
+	overflow: hidden;
+	transform-style: preserve-3d;
+	font-family: 'Poppins';
+	font-weight: 700;
+}	
+
+.main{
+		position: relative;
+		width: 100%;
+		left: 0;
+		z-index: 5;
+		overflow: hidden;
+		transform-origin: left;
+		transform-style: preserve-3d;
+		transition: .5s;
+	}
+
+	header {
+		min-height: 100vh;
+		width: 100%;
+		position: relative;
+	}
+
+	.header__one{
+		background: url(/img/bg1.jpg) no-repeat top center/cover;
+	}
+
+	.header {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(43, 51, 59, 0.5);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.hedaer__item{
+		max-width: 35rem;
+		text-align: center;
+		color: white;
+		padding: 0 2rem;
+
+	}
+
+	.title {
+		font-size: 2.7rem;
+	}
+
+	.btn {
+		margin-top: 1rem;
+		padding: 0.6rem 1.6rem;
+		background-color: #1179e7;
+		border: none;
+		border-radius: 25px;
+		cursor: pointer;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: white;
+	}
+
+	.btn:hover {
+		transition: 0.2s ease-in-out;
+		background: #1a21e5a8;
+	}
+	
+
+	.navbar {
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		z-index: 10;
+		height: .3rem;
+	}
+	.menu {
+		max-width: 72rem;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 2rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		color: white;
+	}
+	.menu__logo {
+		font-size: 1.1rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		line-height: 4rem;
+	}
+	.menu__logo span {
+		font-weight: 600;
+	}
+	.menu__burger {
+		height: 4rem;
+		width: 3rem;
+	}
+	.menu__bar {
+	}
